@@ -32,7 +32,7 @@ int main () {
 
    for( i = 0; i < NUM_THREADS; i++ ) {
       cout << "main() : creating thread, " << i << endl;
-      rc = pthread_create(&threads[i], attr, wait, (void *)i );
+      rc = pthread_create(&threads[i], &attr, wait, (void *)i );
       
       if (rc) {
          cout << "Error:unable to create thread," << rc << endl;
