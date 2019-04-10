@@ -1,0 +1,12 @@
+cd 
+echo $PWD
+echo \$PWD
+echo '$PWD'
+echo "$PWD"
+echo hola \> a y b
+echo hola > a y b  #se crea el fichero a
+ls
+cat a
+echo hola > "a y b"  #se crea el fichero ‘a y b’
+ls
+cat a\ y \b

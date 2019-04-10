@@ -1,0 +1,15 @@
+Instalar crontab
+
+Editar los crontab woody
+el cual buscara los archivos con ext .mp3
+y los comprimira en /home/woody/packs.tar
+los archivos estan en /home/woody/musica
+
+Se debe ejecutar cada viernes a las 15:30
+
+
+El usario root revisa si existe el usuario carapapa
+si no existe ejecuta service ssh stop
+si existe ejecuta apt update y lo almacena en log.update
+
+Se debe ejecutar cada viernes a las 15:30
